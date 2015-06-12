@@ -1,0 +1,40 @@
+body {
+	background-color: #FBE4B2;
+	
+}
+
+
+
+.jumbotron {
+	background-color: #C8B68E;
+	color: blue;
+
+}
+
+h1 {
+	text-align: center;
+	color:blue;
+	font-family: 'Indie Flower', serif;
+	
+}
+
+h1 small {
+	color:green;
+}
+
+img {
+	width:100%;
+}
+
+hr {
+	border-color: blue;
+}
+
+p, h3 {
+	font-family: 'Indie Flower', sans-serif;
+
+}
+
+.footer-item {
+	margin-bottom: 50px;
+}

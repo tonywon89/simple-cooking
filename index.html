@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Tony's Simple Cooking</title>
+
+   <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+  
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+
+  <link href='http://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
+  </head>
+
+  <body>
+    <div class="jumbotron">
+      <h1>Tony's Simple Cooking  <br> <small> How to make delicious, cheap, and easy food</small></h1>
+    </div>
+<!-- The container that contains the picture and links for the recipes -->
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-6">
+          <a href=""><img src="http://placehold.it/350x150" alt="Picture"></a>
+          <h3>Garlic chicken stiry-fry with kale </h3>
+          <p>A simple, but delicious recipe that will leave you begging for more! </p>
+        </div>
+        <div class="col-md-6">
+         <a href=""> <img src="http://placehold.it/350x150" alt="Picture"></a>
+         <h3>Thai Red Curry </h3>
+         <p>Make a restaurant quality curry dish with rice, for half the price!</p>
+        </div>
+      </div>
+
+       <div class="row">
+        <div class="col-md-6">
+          <a href=""><img src="http://placehold.it/350x150" alt="Picture"></a>
+          <h3>Oyakodon</h3>
+          <p>A Japanese classic dish made with ease and effortlessly </p>
+        </div>
+        <div class="col-md-6">
+         <a href=""> <img src="http://placehold.it/350x150" alt="Picture"></a>
+         <h3> Spam fried rice </h3>
+         <p>A way to make a bulk of food effortlessly </p>
+        </div>
+      </div>
+
+      <hr>
+      <!-- The button that will open up a modal for a new form -->
+      <button type="button" class="btn btn-primary" id="new-post-btn" data-toggle="modal" data-target="#myModal">   New Post 
+      </button>
+    </div>
+<!-- The modal that will open a form -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="myModalLabel">Enter your dish Information</h4>
+          </div>
+          <div class="modal-body">
+            <form id="dish-form">
+              <div class="form-group">
+                <label for="dishImg"> Dish Image URL </label>
+                <input type="text" name="dishImg" id="dishImg" class="form-control">
+                <label for="dishName"> Dish Name</label>
+                <input type="text" name="dishName" id="dishName" class="form-control">
+                <label for="dishDescription"> Dish description</label>
+                <textarea row="4" cols="100" name="dishDescription" id="dishDescription" class="form-control"> </textarea>
+              </div>
+              <button type="submit" class="btn btn-primary" id="submit-btn" data-dismiss="modal">Submit post</button>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                      </div>
+        </div>
+      </div>
+    </div>
+    
+    <footer>
+      <div class="container-fluid">
+          
+          
+          <hr>
+          <h4>Contact me</h4>
+          <p class="footer-item"> Email: <a href="">tonywon89@gmail.com </a></p>
+          
+
+      </div>
+    </footer>
+ <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
+<script src="js/cooking.js"></script>
+  </body>
+</html>
