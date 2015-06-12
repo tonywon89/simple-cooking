@@ -16,6 +16,8 @@
   <link rel="stylesheet" type="text/css" href="css/style.css">
 
   <link href='http://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
+
+  
   </head>
 
   <body>
@@ -23,7 +25,7 @@
       <h1>Tony's Simple Cooking  <br> <small> How to make delicious, cheap, and easy food</small></h1>
     </div>
 <!-- The container that contains the picture and links for the recipes -->
-    <div class="container-fluid">
+    <div class="container-fluid" id="main">
       <div class="row">
         <div class="col-md-6">
           <a href=""><img src="http://placehold.it/350x150" alt="Picture"></a>
@@ -46,15 +48,16 @@
         <div class="col-md-6">
          <a href=""> <img src="http://placehold.it/350x150" alt="Picture"></a>
          <h3> Spam fried rice </h3>
-         <p>A way to make a bulk of food effortlessly </p>
+         <p>A way to make a bulk of food for many meals </p>
         </div>
       </div>
-
-      <hr>
-      <!-- The button that will open up a modal for a new form -->
-      <button type="button" class="btn btn-primary" id="new-post-btn" data-toggle="modal" data-target="#myModal">   New Post 
-      </button>
     </div>
+
+    <hr>
+      <!-- The button that will open up a modal for a new form -->
+    <button type="button" class="btn btn-primary" id="new-post-btn" data-toggle="modal" data-target="#myModal">   New Post 
+    </button>
+
 <!-- The modal that will open a form -->
     <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
       <div class="modal-dialog">
@@ -82,19 +85,17 @@
         </div>
       </div>
     </div>
-    
+    <hr>
     <footer>
       <div class="container-fluid">
-          
-          
-          <hr>
           <h4>Contact me</h4>
           <p class="footer-item"> Email: <a href="">tonywon89@gmail.com </a></p>
           
 
       </div>
     </footer>
- <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+
+<script src="http://code.jquery.com/jquery-2.1.4.min.js"></script> 
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 

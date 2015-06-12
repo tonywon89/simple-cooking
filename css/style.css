@@ -4,7 +4,6 @@ body {
 }
 
 
-
 .jumbotron {
 	background-color: #C8B68E;
 	color: blue;
@@ -24,10 +23,11 @@ h1 small {
 
 img {
 	width:100%;
-}
+}	
 
 hr {
 	border-color: blue;
+	background-color:blue;
 }
 
 p, h3 {
@@ -37,4 +37,8 @@ p, h3 {
 
 .footer-item {
 	margin-bottom: 50px;
+}
+
+#new-post-btn { 
+	margin-left: 20px;
 }
